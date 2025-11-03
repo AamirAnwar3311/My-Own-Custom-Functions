@@ -1,0 +1,39 @@
+# Vendor dependencies
+/vendor/
+
+# Composer
+composer.lock
+composer.phar
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.buildpath
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test coverage
+phpunit.xml
+coverage/
+.phpunit.result.cache
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Build artifacts
+build/
+dist/
+
