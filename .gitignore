@@ -1,39 +1,45 @@
-# Vendor dependencies
-/vendor/
-
 # Composer
-composer.lock
+/vendor/
 composer.phar
+# Don't ignore composer.lock for packages
+# composer.lock
 
-# IDE and Editor files
-.idea/
-.vscode/
+# IDE
+/.idea
+/.vscode
 *.swp
 *.swo
 *~
-.project
-.settings/
-.buildpath
-
-# OS files
 .DS_Store
-Thumbs.db
-desktop.ini
 
-# Test coverage
-phpunit.xml
-coverage/
+# Testing
+/phpunit.xml
 .phpunit.result.cache
+/coverage
+.phpunit.cache
 
-# Logs
-*.log
+# Laravel
+/bootstrap/compiled.php
+/app/storage
+.env
+.env.php
+
+# System Files
+Thumbs.db
+.DS_Store
 
 # Temporary files
+*.log
 *.tmp
-*.temp
 *.cache
 
-# Build artifacts
+# Build files
 build/
-dist/
 
+# Package files
+*.tar.gz
+*.zip
+
+# Development
+/.phpunit.result.cache
+/.phpunit.cache

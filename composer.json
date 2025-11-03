@@ -15,7 +15,7 @@
     "authors": [
         {
             "name": "HelperFunctions Contributors",
-            "homepage": "https://github.com/yourusername/HelperFunctions"
+            "homepage": "https://github.com/AamirAnwar3311/My-Own-Custom-Functions"
         }
     ],
     "require": {
@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HelperFunctions\\Helpers\\": "src/"
+            "HelperFunctions\\Helpers\\": "src/Helpers/"
         }
     },
     "autoload-dev": {
